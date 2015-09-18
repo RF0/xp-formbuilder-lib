@@ -6,8 +6,8 @@
   <is-final>true</is-final>
   <allow-child-content>true</allow-child-content>
   <form>
-    <item-set name="contact_info">
-          <label>Contact Info</label>
+    <item-set name="text-input">
+          <label>Text input</label>
           <items>
             <input name="label" type="TextLine">
               <label>Label</label>
@@ -18,7 +18,7 @@
               <occurrences minimum="0" maximum="1"/>
             </input>
           </items>
-          <immutable>false</immutable>
+          <immutable>true</immutable>
           <occurrences minimum="0" maximum="0"/>
         </item-set>
   </form>
