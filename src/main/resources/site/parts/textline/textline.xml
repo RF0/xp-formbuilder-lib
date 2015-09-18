@@ -1,0 +1,34 @@
+<part>
+    <display-name>TextLine</display-name>
+    <config>
+        <field-set name="input">
+            <label>Input configuration</label>
+            <items>
+                <input type="TextLine" name="legend">
+                    <label>Legend (optional)</label>
+                    <occurrences minimum="0" maximum="1"/>
+                </input>
+                <input type="TextLine" name="label">
+                    <label>Label</label>
+                    <occurrences minimum="1" maximum="1"/>
+                </input>
+                <input type="TextLine" name="name">
+                    <label>Input name attribute</label>
+                    <occurrences minimum="1" maximum="1"/>
+                </input>
+                <!--<input type="TextLine" name="type">
+                    <label>Input type attribute</label>
+                    <occurrences minimum="1" maximum="1"/>
+                </input>-->
+                <input name="type" type="ComboBox">
+                    <label>Type</label>
+                    <occurrences minimum="1" maximum="1"/>
+                    <config>
+                        <option value="text">text</option>
+                        <option value="textarea">textarea</option>
+                    </config>
+                </input>
+            </items>
+        </field-set>
+    </config>
+</part>

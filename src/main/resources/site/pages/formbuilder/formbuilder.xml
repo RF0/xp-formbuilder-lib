@@ -1,6 +1,13 @@
 <page>
     <display-name>Formbuilder</display-name>
-    <config/>
+    <config>
+        <input type="TextLine" name="legend">
+            <label>Legend</label>
+            <immutable>false</immutable>
+            <indexed>true</indexed>
+            <occurrences minimum="1" maximum="1"/>
+        </input>
+    </config>
     <regions>
         <region name="formbuilder"/>
     </regions>
