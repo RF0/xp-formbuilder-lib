@@ -1,7 +1,0 @@
-<page>
-    <display-name>Formbuilder</display-name>
-    <config/>
-    <regions>
-        <region name="formbuilder"/>
-    </regions>
-</page>
