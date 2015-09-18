@@ -16,12 +16,17 @@
     <div class="goldenforms-pro">
         <div class="goldenforms-wrapper">
             <div class="goldenforms-container gpro-container2">
-                <form action="" method="post" id="gform-pro">
+                <form data-th-action="${action}" method="post" id="gform-pro">
+                    <input type="hidden" name="formtitle" data-th-value="${formtitle}"/>
                     <div class="frm-body">
                         <div data-th-if="${fbRegion}" data-th-each="component : ${fbRegion.components}"
                              data-th-remove="tag">
                             <div data-portal-component="${component.path}" data-th-remove="tag"></div>
                         </div>
+                    </div>
+                    <div class="frm-footer">
+                        <button type="submit" class="uit-button btn-blue">Create</button>
+                        <button type="reset" class="uit-button">Reset</button>
                     </div>
                 </form>
             </div>

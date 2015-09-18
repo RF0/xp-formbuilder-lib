@@ -1,0 +1,37 @@
+"method": "POST",
+    "scheme": "http",
+    "host": "localhost",
+    "port": 8080,
+    "path": "/portal/draft/formbuilder/form2/_/service/com.enonic.xp.formbuilder/form-builder",
+    "url": "http://localhost:8080/portal/draft/formbuilder/form2/_/service/com.enonic.xp.formbuilder/form-builder",
+    "mode": "preview",
+    "branch": "draft",
+    "contentType": "application/x-www-form-urlencoded",
+    "params": {
+        "middag": "ost"
+    },
+    "headers": {
+        "Origin": "http://localhost:8080",
+        "Cookie": "languageCode=en; contentPopup=1682; archiveBrowseItemsPerPage=20; contentPickerMenu=,-category1158; versionsCssDisplayState=none; JSESSIONID=1v3d5ti988qskiyknpa9nz47c; app.browse.RecentItemsList=com.enonic.xp.formbuilder%3Aform-builder-post%7Cportal%3Apage-template%7Cportal%3Asite%7Ccom.enonic.training%3Alanding-page",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Connection": "keep-alive",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36",
+        "Referer": "http://localhost:8080/admin/portal/preview/draft/formbuilder/form2",
+        "Host": "localhost:8080",
+        "Accept-Encoding": "gzip, deflate",
+        "Cache-Control": "max-age=0",
+        "Upgrade-Insecure-Requests": "1",
+        "Accept-Language": "en-US,en;q=0.8,nb;q=0.6",
+        "Content-Length": "10",
+        "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "cookies": {
+        "contentPickerMenu": ",-category1158",
+        "app.browse.RecentItemsList": "com.enonic.xp.formbuilder%3Aform-builder-post%7Cportal%3Apage-template%7Cportal%3Asite%7Ccom.enonic.training%3Alanding-page",
+        "JSESSIONID": "1v3d5ti988qskiyknpa9nz47c",
+        "languageCode": "en",
+        "contentPopup": "1682",
+        "versionsCssDisplayState": "none",
+        "archiveBrowseItemsPerPage": "20"
+    }
+}

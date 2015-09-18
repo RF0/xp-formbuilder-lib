@@ -1,8 +1,8 @@
 <page>
     <display-name>Formbuilder</display-name>
     <config>
-        <input type="TextLine" name="legend">
-            <label>Legend</label>
+        <input type="TextLine" name="title">
+            <label>Form title</label>
             <immutable>false</immutable>
             <indexed>true</indexed>
             <occurrences minimum="1" maximum="1"/>

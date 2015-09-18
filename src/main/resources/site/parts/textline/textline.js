@@ -9,7 +9,7 @@ exports.get = function(req) {
     var view = resolve('textline.html');
 
     var component = portal.getComponent();
-    UTIL.log(component);
+    //UTIL.log(component);
 
     var config = component.config;
 

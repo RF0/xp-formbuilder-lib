@@ -1,0 +1,25 @@
+<content-type>
+  <display-name>Form builder post</display-name>
+  <content-display-name-script></content-display-name-script>
+  <super-type>base:structured</super-type>
+  <is-abstract>false</is-abstract>
+  <is-final>true</is-final>
+  <allow-child-content>true</allow-child-content>
+  <form>
+    <item-set name="text-input">
+          <label>Text input</label>
+          <items>
+            <input name="name" type="TextLine">
+              <label>Name</label>
+              <occurrences minimum="0" maximum="1"/>
+            </input>
+            <input name="value" type="TextLine">
+              <label>Value</label>
+              <occurrences minimum="0" maximum="1"/>
+            </input>
+          </items>
+          <immutable>true</immutable>
+          <occurrences minimum="0" maximum="0"/>
+        </item-set>
+  </form>
+</content-type>
